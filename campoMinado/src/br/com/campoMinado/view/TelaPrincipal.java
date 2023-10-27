@@ -11,9 +11,9 @@ public class TelaPrincipal extends JFrame {
 		Tabuleiro tabuleiro = new Tabuleiro(16,30,50);
 		add(new PainelTabuleiro(tabuleiro));
 		
-		setTitle("  **TÉSSIO**  "+
+		setTitle("  **TESSIO**  "+
 		"Projeto Campo-Minado do Curso de Java. "
-				+ "  **TÉSSIO**  ");
+				+ "  **TESSIO**  ");
 		setSize(1024, 720);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
